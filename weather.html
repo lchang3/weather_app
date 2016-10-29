@@ -7,45 +7,46 @@
   <title>Weather App</title>
   <style>
 
-    body{
-      background-color: gray;
-    }
     .location {
-      background-color:;
-      padding: 20px;
+      padding-left: 50px;
+      padding-bottom: 100px;
       margin: 10px;
-      color:;
       display: inline-block;
-      width:
-      text-align: center;
       font-size: 50px;
+      text-align: right;
     }
 
      .temperature {
-       padding: 50px;
+       padding-left: 70px;
        margin:50px;
        display: inline-block;
-       text-align: right;
+
        font-size: 60px;
      }
 
      #first_temp {
        color: blue;
-
      }
      #second_temp {
        color: gold;
      }
+     #third_temp {
+       color: gold;
+     }
+     #fourth_temp {
+       color: gray;
+     }
+
+
 
      footer {
+       font-size: 50px;
+       padding-top: 150px;
        text-align: right;
-       display: inline-block;
-       background-color:;
-       color:;
+
      }
      .icon{
-        display: inline-block;
-
+       display: inline;
      }
 
      #New_York{
@@ -53,6 +54,18 @@
      }
      #Miami{
        color: gold;
+     }
+     #Tuscaloosa{
+       color: gold;
+     }
+     #Wausau{
+       color: gray;
+     }
+     .time{
+       display: inline-block;
+       padding-left: 50px;
+       padding-top: 50px;
+       font-size: 50px;
      }
   </style>
 
@@ -65,6 +78,15 @@
     Miami
   </div>
 
+  <div class= "location" id="Tuscaloosa">
+    Tuscaloosa
+  </div>
+
+  <div class= "location" id="Wausau">
+    Wausau
+  </div>
+
+
 <div>
   <div class= "icon" id="rain_icon">
     <img width= "250"; height="250"; src=http://downloadicons.net/sites/default/files/rain-icon-53491.png>
@@ -72,19 +94,50 @@
   <div class= "icon" id="sunny_icon">
     <img width= "250"; height= "250"; src=http://icons.iconarchive.com/icons/jaan-jaak/weather/128/sunny-icon.png>
 
+   <div class= "icon" id="sunny_icon">
+     <img width= "250"; height= "250"; src=http://icons.iconarchive.com/icons/jaan-jaak/weather/128/sunny-icon.png>
+
+   <div class= "icon" id="cloudy_icon">
+     <img width= "250"; height= "250"; src=http://downloadicons.net/sites/default/files/overcast-icon-38570.png>
   </div>
 
   <div>
     <div class= "temperature" id="first_temp">
       49°
-
+    </div>
     <div class= "temperature" id= "second_temp">
       77°
      </div>
+
+    <div class ="temperature" id= "third_temp">
+      70°
+    </div>
+
+    <div class ="temperature" id="fourth_temp">
+      57°
+    </div>
   </div>
-  <div class = "time">
+<div>
+  <div class= "time" id="first_timer">
    11:42 AM
   </div>
+
+  <div class= "time" id="second_timer">
+   11:42 AM
+  </div>
+
+  <div class= "time" id="third_timer">
+    10:42 AM
+  </div>
+
+  <div class= "time" id= "fourth_timer">
+    10:42 AM
+  </div>
+
+</div>
+
+<script src="app_second.js">
+</script>
 
  </body>
  <footer>
