@@ -1,0 +1,18 @@
+For javascript:
+These are the ones that can work in any environment:
+= (this is called assignment)
+var
+String (this is also defined as text)
+Number
+true/false
+if
+while
+=============================================
+Below are the ones that works with browswer only:
+
+alert
+prompt
+
+document -> HTML document
+document.body
+document.getElementById

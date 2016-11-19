@@ -1,0 +1,6 @@
+- conditions
+  - place
+  - time
+  - temperature
+  - icon
+  - humidity

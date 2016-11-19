@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+
+<title>weather app</title>
+
+<head>
+
+<style>
+.location{
+display: inline-block;
+font-size: 50px;
+border: solid;
+text-align: center;
+}
+
+footer{
+  font-size:50px;
+  text-align: right;
+}
+
+button{
+  font-size: 20px;
+}
+
+h2{
+  text-align: right;
+}
+
+</style>
+
+<meta charset= "utf-8"/>
+
+</head>
+
+<body>
+
+<div class= "location">
+  <div class="location_name" id="first_location_name">  </div>
+  <img with= "150"; height= "150" id = "first_icon"; align= "center"/>
+
+  <div id="first_temperature">
+  </div>
+  <div id="first_time">
+  </div>
+</div>
+
+<div class= "location">
+  <div class= "location_name" id="second_location_name"> </div>
+  <img width= "150"; height= "150"; id = "second_icon"; align="center"/>
+<div id="second_temperature">
+</div>
+<div id="second_time">
+</div>
+</div>
+
+<div class= "location">
+  <div class="location_name" id="third_location_name"></div>
+  <img width= "150"; height= "150"; id ="third_icon"; align="center"/>
+  <div id="third_temperature">
+  </div>
+  <div id="third_time">
+  </div>
+</div>
+
+<div class= "location">
+  <div class= "location_name" id="fourth_location_name"></div>
+  <img width= "150"; height= "150"; id = "fourth_icon"; align= "center"/>
+  <div id="fourth_temperature">
+  </div>
+  <div id="fourth_time">
+  </div>
+
+</div>
+
+<h2>
+<div>
+<button id="subscribe">click here to subcribe~</button>
+</div>
+</h2>
+<footer id="now">
+
+</footer>
+
+<script src= "button.js">
+</script>
+
+<script src= "sugar.js">
+</script>
+
+<script src= "date.js">
+</script>
+
+
+<script src="live_data_update.js">
+</script>
+
+</body>
+</html>
